@@ -11,23 +11,23 @@ Ce programme en C permet d'analyser une adresse IPv4 avec un masque en notation 
 
 Compilez le programme en utilisant la commande suivante :
 
-'''sh
+ ```sh
 gcc main.c fonctionIP.c -o main.exe
-'''
+ ```
 
 
 ou avec le Makefile :
 
-'''sh
+ ```sh
 make
-'''
+ ```
 
 
 Exécutez le programme en saisissant l'adresse IPv4 avec un masque CIDR lorsqu'il est demandé. Par exemple :
 
-'''sh
+ ```sh
 Entrez une adresse IPv4 avec un masque en notation CIDR (par exemple, 192.168.1.1/24): 192.168.1.1/24
-'''
+ ```
 
 
 ## Fonctionnalités
